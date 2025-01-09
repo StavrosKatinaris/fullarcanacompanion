@@ -10,26 +10,29 @@
     <div class="container">
         <h1>Full Arcana Companion</h1>
         <form class="player-form">
-            <label for="class-select">Class:</label>
-            <select id="class-select">
-                <option value="Warrior">Warrior</option>
-                <option value="Mage">Mage</option>
-                <option value="Rogue">Rogue</option>
-                <option value="Healer">Healer</option>
-                <option value="Hunter">Hunter</option>
-                <option value="Paladin">Paladin</option>
-                <option value="Warlock">Warlock</option>
-                <option value="Bard">Bard</option>
-                <option value="Druid">Druid</option>
-                <option value="Alchemist">Alchemist</option>
-                <option value="Shaman">Shaman</option>
-                <option value="Necromancer">Necromancer</option>
-                <option value="Barbarian">Barbarian</option>
-                <option value="Duelist">Duelist</option>
-                <option value="Artificer">Artificer</option>
-                <option value="Wizard">Wizard</option>
-            </select>
-
+            <div class="stat-group">
+                <label for="class-select">Class:</label>
+                <select id="class-select">
+                    <option value="Warrior">Warrior</option>
+                    <option value="Mage">Mage</option>
+                    <option value="Rogue">Rogue</option>
+                    <option value="Healer">Healer</option>
+                    <option value="Hunter">Hunter</option>
+                    <option value="Paladin">Paladin</option>
+                    <option value="Warlock">Warlock</option>
+                    <option value="Bard">Bard</option>
+                    <option value="Druid">Druid</option>
+                    <option value="Alchemist">Alchemist</option>
+                    <option value="Shaman">Shaman</option>
+                    <option value="Necromancer">Necromancer</option>
+                    <option value="Barbarian">Barbarian</option>
+                    <option value="Duelist">Duelist</option>
+                    <option value="Artificer">Artificer</option>
+                    <option value="Wizard">Wizard</option>
+                </select>
+                <button type="button" id="lock-class-toggle">Lock</button>
+            </div>
+            
             <div class="stat-group">
                 <label for="defense">Defense:</label>
                 <input type="number" id="defense" value="0" min="0">
