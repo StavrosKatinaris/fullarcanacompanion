@@ -89,3 +89,24 @@ button:hover {
     font-size: 1.2em;
     color: #007bff;
 }
+
+#class-select {
+    width: 60%;
+}
+
+#lock-class-toggle {
+    width: 35%;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 0.9em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#lock-class-toggle:hover {
+    background-color: #0056b3;
+}
